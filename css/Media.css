@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+	@media (min-width:240px) and (max-width:400px){
+						
+	
+	@charset "utf-8";
+/* CSS Document */
+
+
+
+/*Encabezado*/
+header{
+	background-color:#5b7989;
+	border-radius:10px 10px 0 0;	
+	margin-top:0px;
+	color:white;
+	width:100%;
+	
+	}
+	header h1{
+		text-align:center;
+		}
+	
+	header nav a{color:white;
+	}
+	header nav{text-align:center;}
+
+			
+			
+			/*cuerpo*/
+			body .central img {
+			 padding-top:10px;
+			 padding-bottom:10px;	    
+            margin: auto;
+			border-radius:2px;
+			width:50%
+			
+          -webkit-border-radius:2px;
+		  -moz-border-radius:2px;
+		
+			}
+			
+	
+ .central{
+	width:100%;
+		background-color:#82c3a6
+		
+
+		
+	}	.primero{
+		margin-left:0px;
+		
+		}
+	
+	
+			
+		
+			.segundo{
+				margin:left:0px;
+				
+				}
+			.contenedor img{
+			padding-top:10px;
+			 width:50%;
+			      
+				}
+				
+			
+			.contenedor{	
+			display:block;	
+			background-color:#d5c75f;
+				width:100%; 	
+				
+				}	
+				
+				footer .pie{
+					display:block;
+				width:50%
+					
+					}
+			.contenedor p{ color:white;
+			text-align:center;}
+			footer .pie .contacto h4{
+			
+		
+				margin-top:5px;
+				text-decoration:underline;
+				font-style:oblique;
+		
+				
+				}
+				
+				footer .terminos{
+				
+					margin-left:50px;
+					}
+				footer .pie .terminos h4{
+			
+				margin-top:5px;
+				text-decoration:underline;
+				font-style:oblique;
+				}
+				footer .pie .terminos p{
+					margin-top:0px;
+					font-style:italic;
+					
+					}
+				footer .pie .contacto p{
+					color:#000;
+					font-style:italic;
+				
+					
+					}
+						footer .pie .contacto a{
+							text-decoration:none;
+							}
+							
+							footer .pie .redes{
+								margin-top:0px;
+							
+							
+							}
+							footer .pie .redes  h4{
+					
+							text-decoration:underline;
+				            font-style:oblique;
+						
+								
+								
+								}
+								footer .pie .redes p{
+									margin-top:0px;
+									
+									
+									}
+	footer .pie .derecho h4{
+		
+	margin-top:5px;
+	text-decoration:underline;
+	font-style:oblique;
+
+		}
+					footer .pie .derecho{
+				margin-left:50px;
+						
+						}	
+									
+								
+		footer img{
+			
+			height:10%;
+			width:15%;
+			
+			}				
+	
+		
+footer{
+background-color:#C6d5c5;
+border-radius:0px 0px 10px 10px;
+-webkit-border-radius:0px 0px 10px 10px;
+-moz-border-radius:0px 0px 10px 10px;
+height:100%;
+
+margin-top:5px;
+width:100%;
+				}
+				
+footer .pie .redes  ul{
+margin-top:0px;
+list-style:none;
+				
+					
+}
+footer .pie .contacto ul{list-style:none;}
+						
+						
+						}
+	

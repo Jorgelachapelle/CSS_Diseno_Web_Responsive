@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* Retratos */
+
+@font-face{
+	src:url(file:///C|/Users/jorge/Desktop/Principal/fonts/Dancing_Script/DancingScript-Regular.ttf);
+	
+	
+	}
+
+
+	
+	
+
+header{
+	width:100%;
+	background-color:#025466;
+	color:white;
+	-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+overflow:hidden;
+font-family:"DancingScript Regular";
+
+}
+
+header nav a hover {color:red;
+	}
+
+	header nav {text-align:right;
+	margin-right:100px;}
+	header nav a{color:white;
+	font-family:"DancingScript Regular";
+	
+	}
+	header h1{text-align:center;}
+	body {
+    display: flex;
+    flex-direction:column;
+}
+.contenido{
+	display:flex;
+	flex-direction:column;
+
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+margin-bottom:5px;
+margin-top:5px;
+
+}
+.contenido img{border-radius:10px;
+padding-top:5px;
+}
+
+.columna1{
+
+width:100%;
+padding:5px;
+margin-bottom:5px;
+background-color: rgba(95, 87, 177, 0.4);
+margin-top:5px;
+
+}
+.column1 img{
+
+	marging-left:50%;
+	padding-top:5px;
+	}
+.imagen1{
+	
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+	
+	}
+	.imagen2 {
+		-webkit-filter:grayscale(100%);
+		filter:grayscale(100%);
+		
+		}
+		.imagen4 {
+		-webkit-filter:grayscale(100%);
+		filter:grayscale(100%);
+		
+		}
+		.imagen6 {
+		-webkit-filter:grayscale(100%);
+		filter:grayscale(100%);
+		
+		}
+		.imagen3{ -webkit-filter:sepia(90%);
+		filter:sepia(90%);}
+.columna2{
+	background-color: rgba(95, 87, 177, 0.4);
+	
+
+width:100%;
+margin-bottom:20px;
+
+
+margin-bottom:5px;
+}
+
+.imagen5{padding-bottom:150px;}
+
+
+
+footer{
+	
+background-color: grey;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+
+ }
+ footer .pie .redes li{list-style:none;}
+ footer .pie .contacto li{list-style:none;}
+ footer .pie h4{ color:white;}
+ 
+footer .pie .redes img {
+	
+	
+	height:2em;
+	
+	
+	}
+footer .pie {
+	display:flex;
+
+	}
+	
+
+	
+	@media all and (max-width:800px){
+		.contenedor{
+			display:flex;
+			flex-direction:column;
+			margin:0px;
+			padding-top:0px;
+			display:flex;
+			flex-flow:row wrap;
+			
+			}
+			.contenido img{
+				display:block;
+				width:70%}
+			.contenido div{
+				box-sizing:border-box;
+				min-height:600px;
+				min-width:100px;
+				
+				}
+		
+		.columna1{
+			width:100%;
+			background-color:#3546;
+		
+			
+			}
+			
+			.columna2{width:100%;
+			background-color:#8124;
+			order:1}
+			
+			
+	footer .pie {
+	display:flex;
+	flex-direction:column;
+
+	}
+	footer .pie h4{text-align:center;}
+	footer .pie p{text-align:center;}
+	
+		}
